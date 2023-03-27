@@ -1,42 +1,97 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Cluedo Übersichtsbogen</title>
-    <style>
-      /* Styles for the page */
-      body {
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-      }
-      #cluedo-form {
-        padding: 15px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Cluedo Übersichtsbogen</h1>
-    <p>Füllen Sie bitte den Cluedo Übersichtsbogen aus, um das Spiel zu starten.</p>
-    <form id="cluedo-form" action="submit.php" method="post">
-      <label for="player-name">Name des Spielers:</label><br>
-      <input type="text" name="player-name" id="player-name"><br><br>
-      <label for="character">Gewählter Charakter:</label><br>
-      <select name="character" id="character">
-        <option value="Prof. Bloom">Miss Scarlet</option>
-        <option value="Baronin von Portz">Colonel Mustard</option>
-        <option value="Fräul. Ming">Mrs White</option>
-        <option value="Frau Weiß">Reverend Green</option>
-        <option value="Oberst von Gatow">Mrs Peacock</option>
-        <option value="Herr Dir. Grün">Professor Plum</option>
-      </select><br><br>
-      <label for="suspect">Verdächtigte Person:</label><br>
-      <input type="text" name="suspect" id="suspect"><br><br>
-      <label for="weapon">Gewähltes Werkzeug:</label><br>
-      <input type="text" name="weapon" id="weapon"><br><br>
-      <label for="room">Gewählter Raum:</label><br>
-      <input type="text" name="room" id="room"><br><br>
-      <input type="submit" value="Absenden">
-    </form>
-  </body>
-</html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cluedo Übersichtsbogen</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+      text-align: center;
+    }
+    th {
+      background-color: #ddd;
+    }
+    .checkbox {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cluedo Übersichtsbogen</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Spieler</th>
+        <th>Frage</th>
+        <th>Antwort</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="6">Grün</td>
+        <td>Colonel Mustard</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Professor Bloom</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Miss Scarlett</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Reverend Green</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Mrs. White</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Mrs. Peacock</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td rowspan="6">Rot</td>
+        <td>Colonel Mustard</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Professor Bloom</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Miss Scarlett</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Reverend Green</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Mrs. White</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Mrs. Peacock</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td rowspan="6">Blau</td>
+        <td>Colonel Mustard</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Professor Bloom</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Miss Scarlett</td>
+        <td><input type="checkbox" class="checkbox"></td>
+      </
