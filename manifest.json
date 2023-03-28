@@ -4,8 +4,8 @@
 	"display": "standalone",
 	"start_url": "./?utm_source=pwa_install",
 	"scope": ".",
-	"theme_color": "#fab92b",
-	"background_color": "#fab92b",
+	"theme_color": "#fffbf2",
+	"background_color": "#fffbf2",
 	"icons":[
         {
             "src": "android-chrome-36x36.png",
