@@ -2,10 +2,10 @@ html, body {
     background-color: #fffbf2;
     color: black;
     font-family: helvetica, arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
     margin: 0;
-    padding:10px;
+    padding:5px;
   }
 
   th {
