@@ -8,6 +8,7 @@ html, body {
     padding:6px;
   }
 
-  th {
-    font-weight: bold;
+  table {
+    border-collapse: collapse;
+    border-radius: 10px;
   }
