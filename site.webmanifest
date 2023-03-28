@@ -1,6 +1,6 @@
 {
-    "name": "ReVocab",
-    "short_name": "ReVocab",
+    "name": "Cluedo Sheet",
+    "short_name": "Cluedo Sheet",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#0b6bb1",
-    "background_color": "#0b6bb1",
+    "theme_color": "#fab92b",
+    "background_color": "#fab92b",
     "display": "standalone"
 }
