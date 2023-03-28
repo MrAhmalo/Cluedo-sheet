@@ -1,11 +1,11 @@
 {
-	"name": "ReVocab",
-	"short_name": "ReVocab",
+	"name": "Cluedo Sheet",
+	"short_name": "Cluedo Sheet",
 	"display": "standalone",
 	"start_url": "./?utm_source=pwa_install",
 	"scope": ".",
-	"theme_color": "#000",
-	"background_color": "#000",
+	"theme_color": "#fab92b",
+	"background_color": "#fab92b",
 	"icons":[
         {
             "src": "android-chrome-36x36.png",
