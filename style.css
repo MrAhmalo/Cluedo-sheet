@@ -1,9 +1,13 @@
 html, body {
-    background-color: #fff5de;
+    background-color: #fffbf2;
     color: black;
     font-family: helvetica, arial, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
     margin: 0;
-    padding: 10px;
+    padding:10px;
+  }
+
+  th {
+    font-weight: bold;
   }
