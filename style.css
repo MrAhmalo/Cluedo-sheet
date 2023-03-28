@@ -33,7 +33,7 @@ h2:first-of-type {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 70%;
   margin-top: 20px;
   table-layout: fixed;
 }
@@ -73,9 +73,3 @@ table, th, td {
 	border-radius: 5px;
 	overflow: hidden;
   }
-
-
-#myInput {
-	width: 100px;
-	height: 50px;
-}
