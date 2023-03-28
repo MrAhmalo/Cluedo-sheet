@@ -2,15 +2,10 @@ html, body {
     background-color: #fffbf2;
     color: black;
     font-family: helvetica, arial, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     margin: 0;
     padding:6px;
-  }
-
-  table {
-    border-collapse: collapse;
-    border-radius: 10px;
   }
 
   @media only screen and (max-width: 600px) {
@@ -20,4 +15,3 @@ html, body {
       font-size: 17px;
     }
   }
-  
