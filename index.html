@@ -47,20 +47,33 @@
 	<script defer src="./main.js"></script>
  </head>
   
-<head>
+ <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cluedo Übersichtsbogen</title>
   <style>
-    table, th, td {
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    table {
       border: 2px solid black;
       border-collapse: collapse;
-      padding: 5px;
       text-align: center;
-      justify-content:center;
+      margin-top: 2em;
     }
     th {
       background-color: #ddd;
+      border: 2px solid black;
+      padding: 5px;
+    }
+    td {
+      border: 2px solid black;
+      padding: 5px;
     }
     .checkbox {
       width: 20px;
@@ -70,7 +83,7 @@
   </style>
 </head>
 <body>
-  <h1>Cluedo Übersichtsbogen</h1>
+  <h1> style="text-align:center;">Cluedo Übersichtsbogen</h1>
   <table>
     <thead>
       <tr>
