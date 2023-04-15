@@ -47,19 +47,33 @@
 	<script defer src="./main.js"></script>
  </head>
   
-<head>
+ <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cluedo Übersichtsbogen</title>
   <style>
-    table, th, td {
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    table {
       border: 2px solid black;
       border-collapse: collapse;
-      padding: 5px;
       text-align: center;
+      margin-top: 2em;
     }
     th {
       background-color: #ddd;
+      border: 2px solid black;
+      padding: 5px;
+    }
+    td {
+      border: 2px solid black;
+      padding: 5px;
     }
     .checkbox {
       width: 20px;
@@ -77,6 +91,7 @@
         <th>Karten </th>
         <th>Verdächtigt</th>
         <th>Nicht Verdächtigt</th>
+        <th>Person</th>
       </tr>
     </thead>
     <tbody>
@@ -85,108 +100,129 @@
         <td>Professor Bloom</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Baronin von Porz</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Fräulein Ming</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Frau Weiß</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Oberst von Gatow</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Herr Direktor Grün</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td rowspan="6">Tatwerkzeuge</td>
         <td>Heizungsrohr</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Leuchter</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Pistole</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Seil</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Dolch</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Rohrzange</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td rowspan="9">Räume</td>
         <td>Küche</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Bibliothek</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Salon</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Speisezimmer</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Billiardzimmer</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Eingangs-Halle</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Veranda</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Arbeitszimmer</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
       <tr>
         <td>Musikzimmer</td>
         <td><input type="checkbox" class="checkbox"></td>
         <td><input type="checkbox" class="checkbox"></td>
+        <td><input type="text"></td>
       </tr>
     </table><br>
     <h3 style="font-size: 24px;">Made by Julian 🥒</h3>
